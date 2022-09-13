@@ -1,0 +1,29 @@
+nav{
+    background-color: $color-lightblue;
+}
+nav, a {
+    font-family: $font-logo;
+    font-size: 10px;
+    color: $color-offwhite;
+}
+
+nav h1 {
+    font-size: 40px;
+}
+
+main {
+    font-family: $font-main;
+    color: $color-black;
+    background-color: $color-offwhite;
+}
+
+.button {
+    background-color: $color-lightblue;
+    color: $color-black;
+    border: 2px solid $color-lightblue;
+    border-radius: 5px;
+}
+
+main h2{
+    font-size: 20px;
+}
