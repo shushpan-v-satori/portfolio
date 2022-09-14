@@ -1,13 +1,15 @@
-nav{
-    background-color: $color-lightblue;
-}
-nav, a {
+header {
+    background-color: $color-dark;
     font-family: $font-logo;
+    color: $color-offwhite;
+}
+
+header a {
     font-size: 10px;
     color: $color-offwhite;
 }
 
-nav h1 {
+header h1 {
     font-size: 40px;
 }
 
@@ -18,12 +20,27 @@ main {
 }
 
 .button {
-    background-color: $color-lightblue;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: $color-dark;
     color: $color-black;
-    border: 2px solid $color-lightblue;
+    border: 2px solid $color-dark;
     border-radius: 5px;
+    padding: 20px;
+    margin: 10px 20px;
 }
 
 main h2{
     font-size: 20px;
+}
+
+.bold_title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p {
+    color: $color-dark;
+    padding: 10px 20px;
 }

@@ -1,4 +1,4 @@
-nav {
+header {
     display:flex;
     padding: 20px 40px;
 }
@@ -10,7 +10,7 @@ nav {
     width: 75%;
 }
 
-nav a{
+header a{
     padding: 20px;
 }
 
@@ -20,12 +20,33 @@ nav a{
     align-items: flex-start;
 }
 
-.intro_image {
+.intro_and_image {
     display: flex;
+    justify-content: center;
     align-items: stretch;
     width: 100%;
 }
 
-.intro_image img {
-    width: 20%;
+.intro_and_image img {
+    width: 300px;
+}
+
+.base_paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row_of_items {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
