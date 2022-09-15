@@ -5,72 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Irina Anastasieva - Design & Product Direction</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/cdcb6267c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Irina Anastasieva</h1>
-        <nav class="nav_links">
-            <a href="#home" target="_blank">Home</a>
-            <a href="#about" target="_blank">About</a>
-            <a href="#projects" target="_blank">Projects</a>
-            <a href="#linkedin" target="_blank">Linked In</a>
-            <a href="#instagram" target="_blank">Instagram</a>
-            <a href="#email" target="_blank">Contact</a>
+    <header class="header">
+        <h1 class="header__title">Irina Anastasieva</h1>
+        <nav class="header__links">
+            <a class="header__link header__link--hover" href="#about">About</a>
+            <a class="header__link header__link--hover" href="#projects">Projects</a>
+            <a class="header__link header__link--hover" href="https://www.linkedin.com/in/irina-anastasieva-330b835" target="_blank">Linked In</a>
+            <a class="header__link header__link--hover" href="https://www.instagram.com/ianastasieva/" target="_blank">Instagram</a>
+            <a class="header__link header__link--hover" href="mailto:ianastasieva@gmail.com" target="_blank">Contact</a>
         </nav>
     </header>
     <main>
         <section class="intro">
-            <div class="intro_and_image">
-                <div class="base_paragraph">
-                    <p>Hi! I am Irina</p>
-                    <p class="bold_title">A Software Developer </p>
-                    <p class="bold_title">based in Research Triangle Area in North Carolina</p>
-                    <a href="#myPortfolio" class="button">Take a look at my work</a>
-                </div>
-                <div>
-                    <img src="./images/Inspiration.JPG" alt="Portfolio Image">
-                </div>
+            <div class="intro__description">
+                <p class="common__p">Hi! I am Irina</p>
+                <p class="common__title">A Software Developer </p>
+                <p class="common__title">based in Research Triangle Area in North Carolina</p>
+                <a class="button button--hover" href="#projects">Take a look at my work</a>
+            </div>
+            <div>
+                <img class="intro__image" src="./images/Inspiration.JPG" alt="Portfolio Image">
             </div>
         </section>
-        <section class="row_of_items">
-            <p>Visual Design /</p>
-            <p>Front-end Development /</p>
-            <p>Other Skills /</p>
+
+        <section class="specialty">
+            <p class="common__p">Product Design</p>
+            <p class="common__p">/</p>
+            <p class="common__p">Visual Design</p>
+            <p class="common__p">/</p>
+            <p class="common__p">Front-end Development</p>
+            <p class="common__p">/</p>
+            <p class="common__p">Full Stack Developer</p>
         </section>
-        <section class="values">
-            <p class="bold_title">As a designer and developer of projects that require a laser focus on both,</p>
-            <p class="bold_title"> I unite form and function to meet user needs and business goals.</p>
+        <section class="values common__borders">
+            <p class="values__description">As a designer and developer of projects that require a laser focus on both, I unite form and function to meet user needs and business goals.</p>
         </section>
-        <section class="background">
-            <h2 class="bold_title">My Background</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <section class="background common__borders">
+            <h2 class="common__title" id="about">My Background</h2>
+            <div>
+                <img class="background__image" src="./images/Inspiration.JPG" alt="Portfolio Image">
+            </div>
+            <div class="background_details small__p">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis porttitor consequat. Fusce id ornare ex. Quisque et ultrices tellus. Curabitur et leo massa. Proin et efficitur arcu. Maecenas sed enim vitae nisi fringilla elementum quis eu velit. Nulla facilisi.</p>
+                <p>Nam pretium vitae ante id viverra. Nunc dapibus rutrum sem, vel sollicitudin justo lacinia eu. Sed eu nisl in nunc cursus malesuada. Quisque eros quam, euismod in elit in, porta hendrerit est. Quisque eget neque elementum nulla dapibus malesuada lobortis ut orci. Pellentesque urna nulla, laoreet ac fringilla id, aliquam eu magna. Maecenas lacinia venenatis faucibus. Aenean lectus diam, maximus eget molestie at, fermentum eget tellus. Integer aliquam hendrerit ultricies. Aliquam sapien justo, ultricies non mauris vitae, lacinia placerat quam. Mauris quis dui enim.</p>
+                <p>Sed pharetra bibendum urna. Praesent tempus in orci ut eleifend. Aenean et tincidunt est, et ullamcorper tortor. In sagittis ac arcu id mattis. Ut tempus sodales sapien, quis interdum odio blandit ac. Etiam ornare lacinia luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus eu sem cursus, elementum eros eu, ornare ligula. Aenean in dignissim ante. Vivamus finibus sodales tellus eget feugiat. Ut dui erat, gravida vitae egestas at, congue interdum metus. Aliquam sit amet bibendum velit, sed vestibulum lorem. Aliquam congue tellus sed varius feugiat. Integer sodales, ligula sit amet ultricies elementum, metus ligula tincidunt nisi, non luctus ex felis nec arcu..</p>
+            </div>
+            <a class="button button--hover" href="https://www.linkedin.com/in/irina-anastasieva-330b835" target="_blank">LinkedIn Profile</a>
         </section>
-        <section class="skillset">
-            <h2 class="bold_title">Technical Skills</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>skill 1</p>
-            <p>skill 2</p>
-            <p>skill 3</p>
-            <p>skill 4</p>
-            <p>skill 5</p>
-            <p>skill 6</p>
+        <section class="skills">
+            <h2 class="common__title">Technical Skills</h2> 
+            <div class="skills__grid common__p">
+                <div class="skills__skill skills__skill--border">
+                    <i class="fa-brands fa-java"></i>
+                    <p>java</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-brands fa-js"></i>
+                    <p>java script</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-solid fa-database"></i>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skills__skill skills__skill--border">
+                    <i class="fa-brands fa-css3"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-brands fa-github"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-brands fa-jira"></i>
+                    <p>Jira</p>
+                </div>
+                <div class="skills__skill">
+                    <i class="fa-brands fa-confluence"></i>
+                    <p>Confluence</p>
+                </div>
+            </div>
+            <div class="skills__buttons">
+                <a class="button button--hover" href="https://www.codewars.com/users/Murzikas" target="_blank"><i class="fa-solid fa-code"></i> Code Wars</a>
+                <a class="button button--hover" href="https://github.com/shushpan-v-satori" target="_blank"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+            </div>
         </section>
-        <div>
-            <h2>My Projects</h2>
-            <p>project 1</p>
-            <p>project 2</p>
-            <p>project 3</p>
-            <p>project 4</p>
-        </div>
+        <section class="projects">
+            <h2 class="common__title" id="projects">My Projects</h2> 
+            <div class="projects__grid">
+                <div class="project">project</div>
+                <div class="project">project</div>
+                <div class="project">project</div>
+                <div class="project">project</div>
+                <div class="project">project</div>
+                <div class="project">project</div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <h2>Get in touch</h2>
-        <p>Let’s talk about your project and how I can help you or if you just want to chat about design and art - shoot me a message at</p>
-        <a href="#myemail">ianastasieva@gmail.com</a>
-        <p>© 2022 Irina Anastasieva All rights reserved</p>
-        <a href="#linkedin" target="_blank">Linked In</a>
-        <a href="#instagram" target="_blank">Instagram</a>
+    <footer class="footer common__borders">
+        <h2 class="footer__title">Get in touch</h2>
+        <p class="footer__details">Let’s talk about your project and how I can help you or if you just want to chat about design and art - send me a message at</p>
+        <a class="button button--hover" href="mailto:ianastasieva@gmail.com" target="_blank">ianastasieva@gmail.com</a>
     </footer>
+    <section class="copyright">
+        <p class="copyright__description">© 2022 Irina Anastasieva All rights reserved</p>
+        <p class="copyright__description">/</p>
+        <a class="copyright__link copyright__link--hover" href="https://www.linkedin.com/in/irina-anastasieva-330b835" target="_blank">Linked In</a>
+        <p class="copyright__description">/</p>
+        <a class="copyright__link copyright__link--hover" href="https://www.instagram.com/ianastasieva/" target="_blank">Instagram</a>
+    </section>
 </body>
 </html>

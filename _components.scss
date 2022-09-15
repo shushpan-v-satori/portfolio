@@ -1,46 +1,167 @@
-header {
+.header {
     background-color: $color-dark;
     font-family: $font-logo;
     color: $color-offwhite;
+
+    .header__title {
+        font-size: 20px;
+    }
+
+    .header__link {
+        font-size: 10px;
+        color: $color-offwhite;
+    }
+
+    .header__link--hover:hover {
+        color: $color-light;
+        font-weight: bold;
+    }
 }
 
-header a {
-    font-size: 10px;
-    color: $color-offwhite;
-}
-
-header h1 {
-    font-size: 40px;
-}
+// common elements
 
 main {
     font-family: $font-main;
-    color: $color-black;
-    background-color: $color-offwhite;
+    color: $color-offwhite;
+    background-color: $color-dark;
 }
+
+.common__p {
+    padding: 20px 0px;
+}
+
+.common__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 .button {
     font-size: 14px;
-    font-weight: bold;
-    background-color: $color-dark;
-    color: $color-black;
-    border: 2px solid $color-dark;
+    color: $color-offwhite;
+    border: 1px solid $color-light;
     border-radius: 5px;
     padding: 20px;
-    margin: 10px 20px;
+    margin: 20px 0px;
 }
 
-main h2{
-    font-size: 20px;
-}
-
-.bold_title {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 20px;
-}
-
-p {
+.button--hover:hover {
+    background-color: $color-light;
     color: $color-dark;
-    padding: 10px 20px;
+    font-weight: bold;
 }
+
+// specific items
+
+.intro {
+    padding: 40px;
+}
+
+.specialty {
+    padding: 40px;
+    margin: 40px 0px;
+}
+
+.common__borders {
+    border-top: 1px solid $color-light;
+    border-bottom: 1px solid $color-light;
+    padding: 40px 0px 40px 0px;
+}
+
+.values {
+    padding: 40px;
+    
+    .values__description {
+        font-size: 24px;
+    }
+}
+
+.background {
+    padding: 40px;
+    
+    .background_details {
+        column-count: 2;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .small__p {
+        font-size: 10px;
+        text-align: left;
+    }
+}
+
+.skills {
+    padding: 40px;
+
+    .skills__grid {
+        padding: 40px 0px 40px 0px;
+
+        .skills__skill {
+            padding: 20px;
+        }
+
+        .skills__skill--border{
+            border-left: 1px solid $color-offwhite;
+        }
+    }
+    
+    .button {
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+.projects {
+    padding: 40px;
+
+    .projects__grid {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .project {
+        font-size: 24px;
+        color: $color-dark;
+        background-color: $color-offwhite;
+        border: 1px solid $color-offwhite;
+        height: 200px;
+    
+    }
+}
+
+
+.footer {
+    font-family: $font-main;
+    color: $color-offwhite;
+    background-color: $color-dark;
+
+    .footer__title {
+        font-size: 40px;
+    }
+
+    .footer__details {
+        font-size: 16px;
+        padding: 40px;
+    }
+}
+
+.copyright {
+    font-family: $font-main;
+    color: $color-offwhite;
+    background-color: $color-dark;
+
+    .copyright__description{
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .copyright__link {
+        color: $color-offwhite;
+        padding: 20px;
+    }
+
+    .copyright__link--hover:hover {
+        color: $color-light;
+    }
+}
+
+
+
