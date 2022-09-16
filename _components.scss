@@ -119,13 +119,43 @@ main {
         padding: 40px 0px 40px 0px;
     }
 
-    .project {
-        font-size: 24px;
+    .project__details{
+        background-color: $color-offwhite;
+        color: $color-dark;
+        padding: 20px;
+    }
+
+    .project__image {
         color: $color-dark;
         background-color: $color-offwhite;
         border: 1px solid $color-offwhite;
-        height: 200px;
-    
+        width: 100%;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .project__technology {
+        color: $color-light;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+
+    .project__description {
+        font-size: 10px;
+        padding: 20px 0px;
+    }
+
+    .project__link {
+        color: $color-dark;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .project__link--hover:hover {
+        color: $color-light;
+        font-weight: bold;
     }
 }
 
