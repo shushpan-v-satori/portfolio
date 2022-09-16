@@ -5,6 +5,7 @@
 
     .header__title {
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .header__link {
@@ -24,6 +25,7 @@ main {
     font-family: $font-main;
     color: $color-offwhite;
     background-color: $color-dark;
+    margin: 0px 20px;
 }
 
 .common__p {
@@ -132,6 +134,7 @@ main {
     font-family: $font-main;
     color: $color-offwhite;
     background-color: $color-dark;
+    margin: 0px 20px;
 
     .footer__title {
         font-size: 40px;
@@ -147,6 +150,7 @@ main {
     font-family: $font-main;
     color: $color-offwhite;
     background-color: $color-dark;
+    margin: 0px 20px 20px 20px;
 
     .copyright__description{
         font-size: 16px;

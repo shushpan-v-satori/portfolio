@@ -2,6 +2,7 @@
     display:flex;
     padding: 20px 40px;
     align-items: center;
+    margin: 0px 20px; 
 
     .header__link {
         padding: 20px;
@@ -11,7 +12,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 75%;
+        width: 100%;
     }
 }
 
@@ -19,11 +20,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
-    width: 100%;
-    
-    .intro__image {
-        width: 25vw;
-        padding: 20px;
+    // width: 100%;
+
+    .intro__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .intro__image {
+            width: 25vw;
+        }
     }
 
     .intro__description {
@@ -38,6 +44,7 @@
 .specialty {
     display: flex;
     justify-content: space-evenly;
+    margin: 0px 20px;
 }
 
 .values {
@@ -187,5 +194,14 @@
         }
     }
 
-   
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .copyright__description--blank {
+            display: none;
+        }
+    }
 }

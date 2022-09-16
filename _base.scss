@@ -2,8 +2,8 @@
 
 $font-logo: "Quicksand", sans-serif;
 $font-main: "Raleway", sans-serif;
-// $color-lightblue: #a3c7c7;
-$color-dark: #257b7f;
+$color-dark: #497b86;
+// $color-dark: #257b7f;
 $color-offwhite: #f2ecdc;
 $color-black: #101010;
 $color-light: #d99774;
@@ -11,6 +11,7 @@ $color-light: #d99774;
 * {
     margin: 0;
     padding: 0;
+    // max-width: 2000px;
 }
 
 a:link,

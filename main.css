@@ -10,12 +10,13 @@ a:visited {
 }
 
 .header {
-  background-color: #257b7f;
+  background-color: #497b86;
   font-family: "Quicksand", sans-serif;
   color: #f2ecdc;
 }
 .header .header__title {
   font-size: 20px;
+  white-space: nowrap;
 }
 .header .header__link {
   font-size: 10px;
@@ -29,7 +30,8 @@ a:visited {
 main {
   font-family: "Raleway", sans-serif;
   color: #f2ecdc;
-  background-color: #257b7f;
+  background-color: #497b86;
+  margin: 0px 20px;
 }
 
 .common__p {
@@ -52,7 +54,7 @@ main {
 
 .button--hover:hover {
   background-color: #d99774;
-  color: #257b7f;
+  color: #497b86;
   font-weight: bold;
 }
 
@@ -114,7 +116,7 @@ main {
 }
 .projects .project {
   font-size: 24px;
-  color: #257b7f;
+  color: #497b86;
   background-color: #f2ecdc;
   border: 1px solid #f2ecdc;
   height: 200px;
@@ -123,7 +125,8 @@ main {
 .footer {
   font-family: "Raleway", sans-serif;
   color: #f2ecdc;
-  background-color: #257b7f;
+  background-color: #497b86;
+  margin: 0px 20px;
 }
 .footer .footer__title {
   font-size: 40px;
@@ -136,7 +139,8 @@ main {
 .copyright {
   font-family: "Raleway", sans-serif;
   color: #f2ecdc;
-  background-color: #257b7f;
+  background-color: #497b86;
+  margin: 0px 20px 20px 20px;
 }
 .copyright .copyright__description {
   font-size: 16px;
@@ -154,6 +158,7 @@ main {
   display: flex;
   padding: 20px 40px;
   align-items: center;
+  margin: 0px 20px;
 }
 .header .header__link {
   padding: 20px;
@@ -162,18 +167,21 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 75%;
+  width: 100%;
 }
 
 .intro {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
+}
+.intro .intro__container {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
-.intro .intro__image {
+.intro .intro__container .intro__image {
   width: 25vw;
-  padding: 20px;
 }
 .intro .intro__description {
   display: flex;
@@ -185,6 +193,7 @@ main {
 .specialty {
   display: flex;
   justify-content: space-evenly;
+  margin: 0px 20px;
 }
 
 .values {
@@ -310,5 +319,15 @@ main {
   }
   .projects .common__title {
     text-align: center;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright .copyright__description--blank {
+    display: none;
   }
 }
