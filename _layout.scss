@@ -83,16 +83,20 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 40px;
-    }
-
-    .project {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .project__links {
-        display: flex;
+        .projects__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 2px solid red;
+            .project__details {
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+                .project__details__links {
+                    display: flex;
+                }
+            }
+        }  
     }
 }
 
@@ -197,14 +201,14 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
             gap: 10px;
-        }
-
-        .project__image{
-            display: none;
-        }
-        
-        .common__title {
-            text-align: center;
+            .project__container__image{
+                display: none;
+            }    
+            .project__details{ 
+                .common__title {
+                    text-align: center;
+                }
+            }
         }
     }
 
